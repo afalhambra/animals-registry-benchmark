@@ -13,8 +13,6 @@ public class AnimalsRegistryBenchmark {
 
     @State(Scope.Benchmark)
     public static class BenchmarkState {
-        int a = 1;
-        int b = 2;
         static final String dogsFile = "src/resources/dogs.xml";
         static AnimalFactory animalFactory;
         static DogRegistry dogRegistry;
